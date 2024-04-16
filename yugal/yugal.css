@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 30px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 27px;
+  color: white;
+  background-color: black;
+}
+nav img {
+  width: 80px;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  padding: 25px 50px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.intro {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+}
+.intro .image img {
+  width: 350px;
+  height: 466px;
+}
+.intro .image-text {
+  font-size: 50px;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+.aboutme .about {
+  font-size: 150px;
+  text-align: center;
+  padding: 100px;
+  margin-top: 50px;
+}
+.aboutme img {
+  width: 350px;
+}
+.aboutme .text {
+  font-size: 40px;
+}
+
+.contact {
+  font-size: 100px;
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.contact-me {
+  font-size: 50px;
+  padding: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+.about {
+  font-size: 100px;
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.text {
+  width: 65%;
+  font-size: 25px;
+}/*# sourceMappingURL=yugal.css.map */
